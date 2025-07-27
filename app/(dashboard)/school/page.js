@@ -1,107 +1,23 @@
-"use client";
-import Image from "next/image";
-import Header from "./(dashboard)/Header";
-import { assets } from "@/Assests/assets";
-import { useState } from "react";
+
+'use client';
+import Header from '../Header';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 import { MessageCircle } from "lucide-react";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { assets } from "@/Assests/assets";
+import Image from "next/image";
 
-const backgroundImages = [
+export default function SignIn() {const backgroundImages = [
   assets.background,
-
-  // Add more images if available
 ];
 
-export default function Home() {
-  const Slideshow = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+ 
 
-    useEffect(() => {
-      const timer = setInterval(() => {
-        setCurrentIndex((prevIndex) =>
-          prevIndex === backgroundImages.length - 1 ? 0 : prevIndex + 1
-        );
-      }, 5000); // change slide every 5 seconds
-
-      return () => clearInterval(timer);
-    }, []);
-  };
- const [isOpen, setIsOpen] = useState(false);
-
- const Navigation = ({ isMobile = false, closeMenu }) => {
-  const navBase = isMobile
-    ? "flex flex-col items-start gap-6 mt-6"
-    : "flex items-center gap-10";}
-
-  const toggleMenu = () => setIsOpen(!isOpen);
-  const closeMenu = () => setIsOpen(false);
-
-  
-
-  const buttonStyle = `
-    text-yellow-400 border border-yellow-400 px-4 py-2 rounded-full
-    font-semibold hover:bg-yellow-400 hover:text-green-900 transition
-    duration-300
-  `;
-
-  const [data, setData] = useState(null);
   return (
     <div>
-      <div>
-        {/* <Header /> */}
-       <header className="bg-green-900 text-white w-full">
-      <div className="max-w-screen-2xl mx-auto px-4">
-        {/* Header row with vertical alignment */}
-        <div className="flex items-center justify-between h-20">
-          {/* Logo + Title */}
-          <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 relative">
-              <Image
-                src={assets.logo}
-                fill
-                alt="Logo"
-                className="rounded-full object-cover shadow-md hover:shadow-amber-400 transition duration-300"
-              />
-            </div>
-            <p className="font-semibold text-2xl transition-all duration-300 hover:text-amber-400 hover:underline hover:underline-offset-4 hover:scale-105">
-              AJOCREMAY MEDICARE CONSORTIUM
-            </p>
-          </div>
+      <Header/>
 
-          {/* Desktop nav */}
-          <div className="hidden lg:flex items-center">
-            {/* <Navigation /> */}
-
-             <Link
-        href="/signup"
-        onClick={closeMenu}
-        className={buttonStyle}
-      >
-        Sign Up
-      </Link>
-          </div>
-
-          {/* Mobile menu icon */}
-          <div className="lg:hidden flex items-center">
-            <button onClick={toggleMenu} className="text-white">
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile nav menu */}
-        {isOpen && (
-          <div className="lg:hidden mt-2 bg-green-800 rounded shadow-md p-4">
-            <Navigation isMobile={true} closeMenu={closeMenu} />
-          </div>
-        )}
-      </div>
-    </header>
-
-
-        <section className=" bg-green-950 text-white">
+      <section className=" bg-green-950 text-white">
           <div className="bg-amber-400 text-white text-center px-4 py-2 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm sm:text-base lg:text-xl">
             <p className="text-white">
               Admission for all academic sessions is ongoing.
@@ -174,7 +90,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </div>
     </div>
+    
   );
 }
