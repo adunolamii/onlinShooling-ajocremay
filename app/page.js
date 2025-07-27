@@ -7,6 +7,7 @@ import { MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Footer from "./(dashboard)/footer";
 
 const backgroundImages = [
   assets.background,
@@ -175,6 +176,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Footer/>
     </div>
   );
 }

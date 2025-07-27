@@ -12,9 +12,7 @@ const Logo = () => {
       <Link href="/">
         <div className="items-center hidden lg:flex ">
           <Image src={assets.logo} width={50} height={50} alt="true" />
-          {/* <p className=" font-semibold text-white text-2xl  ml-2.5">
-            Ajocremay Medicare
-          </p> */}
+        
         </div>
       </Link>
     </div>

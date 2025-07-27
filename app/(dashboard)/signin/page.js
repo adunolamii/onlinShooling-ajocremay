@@ -41,8 +41,8 @@ export default function SignIn() {
 
   return (
     <div>
-      <Header/>
-      {/* <Header2/> */}
+      {/* <Header/> */}
+      <Header2/>
     <div className="bg-white p-8 rounded-lg shadow-lg w-full m-auto max-w-sm">
       <h2 className="text-2xl font-semibold text-center mb-6">Sign In</h2>
         {error && <div className="text-red-500 text-center mb-4">{error}</div>}
