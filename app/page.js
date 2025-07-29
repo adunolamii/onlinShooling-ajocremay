@@ -8,6 +8,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Footer from "./(dashboard)/footer";
+import { Typewriter } from 'react-simple-typewriter';
 
 const backgroundImages = [
   assets.background,
@@ -172,7 +173,20 @@ export default function Home() {
 
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                   <h1 className="text-white text-4xl font-bold">
-                    Welcome to AJOCREMAY MEDICARE
+                    
+                    <span className="text-white">&nbsp;</span>
+      <span className="text-yellow-400">
+        <Typewriter
+          words={['Welcome to AJOCREMAY MEDICARE CONSORTIUM']}
+          loop={true}
+          cursor
+          cursorStyle="|"
+          typeSpeed={80}
+          deleteSpeed={60}
+          delaySpeed={1500}
+        />
+      </span>
+
                   </h1>
                 </div>
               </section>
