@@ -52,26 +52,28 @@ const Footer = () => {
           </h3>
           <div className="flex gap-4 text-2xl">
             <Link
-              href="https://wa.me/2348001234567"
+              href="https://wa.me/2349131240544"
               target="_blank"
               className="hover:text-green-400 transition"
             >
               <FaWhatsapp />
             </Link>
             <Link
-              href="https://facebook.com/ajocremay"
+              href="https://facebook.com/ajocremay medical battalion"
               target="_blank"
               className="hover:text-blue-400 transition"
             >
               <FaFacebook />
             </Link>
             <Link
-              href="https://instagram.com/ajocremay"
+              href="https://instagram.com/Ajocremay Medical Battalion"
               target="_blank"
               className="hover:text-pink-400 transition"
             >
               <FaInstagram />
             </Link>
+
+            
           </div>
         </div>
       </div>

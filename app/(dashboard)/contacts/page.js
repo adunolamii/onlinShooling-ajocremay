@@ -1,69 +1,10 @@
-// "use client";
-// import React from "react";
-// import { Mail, Phone, MessageCircle } from "lucide-react";
-// import Link from "next/link";
-
-// const Contact = () => {
-//   return (
-//     <section className="bg-white py-16 px-4 md:px-10 lg:px-20">
-//       <div className="max-w-4xl mx-auto text-center">
-//         <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-6">
-//           Contact Us
-//         </h2>
-//         <p className="text-gray-700 text-lg md:text-xl mb-12">
-//           We'd love to hear from you! Reach out via email or WhatsApp for inquiries,
-//           enrollment details, or any assistance.
-//         </p>
-
-//         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-//           {/* Email Card */}
-//           <div className="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-//             <div className="flex items-center mb-4">
-//               <Mail className="w-6 h-6 text-green-700 mr-3" />
-//               <h3 className="text-xl font-semibold text-green-800">Email</h3>
-//             </div>
-//             <p className="text-gray-600 mb-3">
-//               For general inquiries and official correspondence, contact us via email.
-//             </p>
-//             <Link
-//               href="mailto:ajocremaymedicare@gmail.com"
-//               className="text-green-700 font-medium hover:underline"
-//             >
-//               ajocremaymedicare@gmail.com
-//             </Link>
-//           </div>
-
-//           {/* WhatsApp Card */}
-//           <div className="bg-green-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-//             <div className="flex items-center mb-4">
-//               <MessageCircle className="w-6 h-6 text-green-700 mr-3" />
-//               <h3 className="text-xl font-semibold text-green-800">WhatsApp</h3>
-//             </div>
-//             <p className="text-gray-600 mb-3">
-//               Send us a message on WhatsApp for quick support or school information.
-//             </p>
-//             <Link
-//               href="https://wa.me/2348012345678"
-//               target="_blank"
-//               className="text-green-700 font-medium hover:underline"
-//             >
-//               Chat on WhatsApp (+234 801 234 5678)
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Contact;
-
 "use client";
 import React from "react";
 import { Mail, MessageCircle, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Header from "../Header";
+import Footer from "../footer";
 
 const contact = () => {
   return (
@@ -188,6 +129,7 @@ const contact = () => {
 
        </div>
     </section>
+    <Footer/>
     </div>
   );
 };

@@ -3,27 +3,72 @@ import React from 'react'
 import Header from '../Header'
 import { motion } from "framer-motion";
 import Image from 'next/image';
+import { assets } from '@/Assests/assets';
+import Link from 'next/link';
+import Footer from '../footer';
 const page = () => {
+  
+  const backgroundImages = [
+   
+    assets.edu,
+    assets.edu2,
+    assets.grad,
+    assets.grad2,
+    assets.care
+  
+    // Add more images if available
+  ];
+
   const courses = [
   {
-    title: "Basic Nursing",
-    image: "/images/nursing.jpg", // Replace with your own image paths
+    title: "Basic Clinical Skills Program",
+    image: "/images/care.jpg", // Replace with your own image paths
     description: "Train to become a certified nurse with practical and clinical exposure.",
+    duration: "3 Months"
   },
   {
-    title: "Midwifery",
+    title: "Basic Life Support",
     image: "/images/midwifery.jpg",
     description: "Hands-on learning and real-world experience in maternal care.",
+    duration: "3 Months"
   },
   {
-    title: "Pharmacy Technician",
+    title: "Health Education & Sensitization",
     image: "/images/pharmacy.jpg",
     description: "Comprehensive program in drug handling and community health support.",
+    duration: "3 Months"
   },
   {
-    title: "Community Health",
+    title: "Care Of Special Needs Program",
     image: "/images/community.jpg",
     description: "Focus on preventive healthcare and rural outreach programs.",
+    duration: "3 Months"
+  },
+   {
+    title: "Care Giving Program",
+    image: "/images/community.jpg",
+    description: "Focus on preventive healthcare and rural outreach programs.",
+    duration: "3 Months"
+  },
+
+   {
+    title: "Nursing Assistance Program",
+    image: "/images/community.jpg",
+    description: "Focus on preventive healthcare and rural outreach programs.",
+    duration: "6 Months"
+  },
+
+   {
+    title: "FIRST AIDS Program",
+    image: "/images/community.jpg",
+    description: "Focus on preventive healthcare and rural outreach programs.",
+    duration: "6 Months"
+  },
+   {
+    title: "Health Assistance Program",
+    image: "/images/community.jpg",
+    description: "Focus on preventive healthcare and rural outreach programs.",
+    duration: "6 Months"
   },
 ];
 
@@ -77,8 +122,8 @@ const cardVariants = {
             >
               <div className="relative h-52 w-full">
                 <Image
-                  // src={course.image}
-                  // alt={course.title}
+                  src={assets.grad2}
+                  alt={course.title}
                   layout="fill"
                   objectFit="cover"
                   className="hover:scale-105 transition duration-500"
@@ -88,17 +133,20 @@ const cardVariants = {
                 <h3 className="text-xl font-semibold text-green-800 mb-2">
                   {course.title}
                 </h3>
-                <p className="text-sm text-gray-700">{course.description}</p>
-                <button className="mt-4 bg-yellow-400 text-green-900 font-semibold px-4 py-2 rounded-full hover:bg-yellow-500 transition">
-                  Learn More
-                </button>
+                 <h3 className="text-xl font-semibold text-green-800 mb-2">
+                  {course.duration}
+                </h3>
+                <p className="text-sm mb-11 text-gray-700">{course.description}</p>
+                <Link href={"/tuition"} className="mt-48 bg-yellow-400 text-green-900 font-semibold px-4 py-2 rounded-full hover:bg-yellow-500 transition">
+                  Apply Now
+                </Link>
               </div>
             </motion.div>
           ))}
         </div>
       </motion.div>
     </section>
-
+          <Footer/>
     </div>
   )
 }

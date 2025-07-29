@@ -11,6 +11,10 @@ import Footer from "./(dashboard)/footer";
 
 const backgroundImages = [
   assets.background,
+  assets.edu,
+  assets.edu2,
+  assets.grad,
+  assets.grad2
 
   // Add more images if available
 ];
@@ -159,7 +163,7 @@ export default function Home() {
             <div className="bg-green-900 w-full flex items-center justify-center">
               <section className="relative w-full h-screen">
                 <Image
-                  src={assets.background}
+                  src={assets.grad2}
                   alt="Background Image"
                   fill
                   className="object-cover"

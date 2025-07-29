@@ -1,7 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-
 import React from 'react'
 import Header from '../Header';
 import Header2 from '../Header2';
