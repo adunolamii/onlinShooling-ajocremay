@@ -20,7 +20,7 @@ const Footer = () => {
               className="rounded-full object-cover"
             />
           </div>
-          <p className="text-lg font-semibold">AJOCREMAY MEDICARE</p>
+          <p className="text-lg font-semibold">AJOCREMAY MEDICARE CONSORTIUM</p>
           <p className="text-sm text-gray-300">
             Your trusted partner in quality healthcare, education & social
             support services.
@@ -34,10 +34,10 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li className="flex items-center gap-2">
-              <Mail size={16} /> info@ajocremay.com
+              <Mail size={16} /> ajocremaymedicare@gmail.com
             </li>
             <li className="flex items-center gap-2">
-              <Phone size={16} /> +234 800 123 4567
+              <Phone size={16} /> +234 9131240544
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} /> Lagos, Nigeria

@@ -17,7 +17,6 @@ const backgroundImages = [
   assets.grad,
   assets.grad2
 
-  // Add more images if available
 ];
 
 export default function Home() {
