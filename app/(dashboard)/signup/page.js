@@ -5,7 +5,7 @@ import React from 'react'
 import Header from '../Header';
 import Header2 from '../Header2';
 
-const page = () => {
+const Page = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -108,4 +108,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

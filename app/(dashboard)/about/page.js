@@ -71,7 +71,7 @@ const About = () => {
               Our Impact
             </h3>
             <p className="text-gray-700 mb-6">
-              Our initiatives have encouraged many to pursue Bachelor's degrees
+              Our initiatives have encouraged many to pursue Bachelors degrees
               in medicine and health-related fields. Registered Nurses, Medical
               students, and health practitioners participate in our courses to
               enhance their careers.
@@ -82,7 +82,7 @@ const About = () => {
             </h3>
             <p className="text-gray-700 mb-6">
               Our programs combine online and physical lectures with practical
-              postings, providing hands-on experience and comprehensive
+              postings, providing hands on experience and comprehensive
               learning. We also provide reading materials to support learning
               and skill development.
             </p>
@@ -91,9 +91,9 @@ const About = () => {
               Strategic Partnerships
             </h3>
             <p className="text-gray-700 mb-6">
-              We have established partnerships with well-equipped hospitals and
+              We have established partnerships with well equipped hospitals and
               medical facilities across Nigeria, providing our students with
-              access to state-of-the-art training facilities and real-world
+              access to state of the art training facilities and real-world
               experience.
             </p>
 
@@ -113,7 +113,7 @@ const About = () => {
               As we continue to grow and expand our reach beyond our current
               status, we remain committed to providing quality education,
               mentorship, and career advancement opportunities to healthcare
-              professional
+              professional.
             </p>
 
             
@@ -185,23 +185,23 @@ const About = () => {
             </h3>
             <ul className="text-gray-700 list-disc pl-5 space-y-2">
               <li>
-                <strong>Excellence</strong> – We strive for the highest
+                <strong>Excellence</strong>  We strive for the highest
                 standards in academics and service.
               </li>
               <li>
-                <strong>Integrity</strong> – We uphold truth, honesty, and
+                <strong>Integrity</strong>  We uphold truth, honesty, and
                 transparency in all we do.
               </li>
               <li>
-                <strong>Empathy</strong> – We nurture kindness and compassion in
+                <strong>Empathy</strong>  We nurture kindness and compassion in
                 our learners and staff.
               </li>
               <li>
-                <strong>Innovation</strong> – We embrace change and empower
+                <strong>Innovation</strong>  We embrace change and empower
                 creativity through technology and curiosity.
               </li>
               <li>
-                <strong>Discipline</strong> – We encourage respect,
+                <strong>Discipline</strong> –We encourage respect,
                 responsibility, and good character.
               </li>
             </ul>
@@ -216,13 +216,13 @@ const About = () => {
               Message from Our Registra
             </h3>
             <p className="text-gray-700 leading-relaxed">
-              “At AJOCREMAY MEDICARE, we don't just teach, we inspire. We equip
-              our students to thrive in a fast-changing world by balancing
+              At AJOCREMAY MEDICARE, we do not just teach, we inspire. We equip
+              our students to thrive in a fast changing world by balancing
               strong academics with deep moral grounding. Join us in building a
-              future full of promise, purpose, and progress.”
+              future full of promise, purpose, and progress.
             </p>
             <p className="mt-4 font-semibold text-green-800">
-              — Ogunleye Faith O. , Registra
+               Ogunleye Faith O.  Registra
             </p>
           </motion.div>
 

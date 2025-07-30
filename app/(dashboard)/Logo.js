@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { assets } from "@/Assests/assets";
-import Image from "next/image";
+
 import { useState } from "react";
 
 const Logo = () => {

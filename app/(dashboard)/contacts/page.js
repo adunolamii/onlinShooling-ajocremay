@@ -28,7 +28,7 @@ const contact = () => {
           transition={{ delay: 0.3 }}
           className="text-center text-lg md:text-xl text-gray-700 mb-14"
         >
-          Reach out to us for inquiries, support, admissions, or collaboration. We're here to help.
+          Reach out to us for inquiries, support, admissions, or collaboration. We are here to help.
         </motion.p>
 
         {/* Contact Options */}
