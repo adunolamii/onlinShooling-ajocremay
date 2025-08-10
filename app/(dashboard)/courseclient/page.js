@@ -183,30 +183,54 @@ const courses = [
   {
     title: "Basic Clinical Skills Program",
     image: assets.care,
-    description: "Train to become a certified nurse with clinical exposure.",
+    description: "It is designed to help people develop the essential abilities they need for daily life, learning, and work.",
     duration: "3 Months",
   },
   {
     title: "Basic Life Support",
-    image: assets.grad2,
-    description: "Hands-on learning and experience in maternal care.",
+    image: assets.clinical2,
+    description: "Basic Life Support is the emergency medical care given to someone who is experiencing a life-threatening condition, such as cardiac arrest, choking, or drowning, to keep them alive until professional help arrives.",
     duration: "3 Months",
   },
   {
     title: "Health Education & Sensitization",
-    image: assets.edu,
-    description: "Community health support and drug handling program.",
+    image: assets.clinical,
+    description: "The goal is to equip individuals and communities with the knowledge and motivation to live healthier lives.",
     duration: "3 Months",
   },
   {
     title: "Care Of Special Needs Program",
-    image: assets.grad,
+    image: assets.healthassistance2,
     description: "Preventive healthcare and rural outreach focus.",
     duration: "3 Months",
   },
+    {
+    title: "Care Giving Program",
+    image: assets.care2,
+    description: "The aim is to promote independence, dignity, and quality of life for people with special needs.",
+    duration: "3 Months",
+  },
+    {
+    title: "Nursing Assistance Program",
+    image: assets.firstaid,
+    description: "The goal is to equip caregivers with the knowledge and compassion needed to support patients health, comfort, and recovery.",
+    duration: "6 Months",
+  },
+    {
+    title: "First Aid Program",
+    image: assets.first2,
+    description: "The aim is to save lives, prevent conditions from worsening, and promote quick recovery.",
+    duration: "6 Months",
+  },
+    {
+    title: "Health Assistance Program",
+    image: assets.cover2,
+    description: "The goal is to improve access to quality care and strengthen overall community health.",
+    duration: "6 Months",
+  },
 ];
 
-// Fade-in from bottom animation
+
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i) => ({

@@ -1,11 +1,18 @@
-// models/signupModel.js
 import mongoose from "mongoose";
 
-const userSchema = new mongoose.Schema({
-  fullname: String,
-  email: { type: String, unique: true },
-  password: String,
-});
+const signinSchema = new mongoose.Schema({
+  email: {
+    type: String,
+    required: true,
+    unique: true,
+    lowercase: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
+}, { timestamps: true });
 
-const SignupModel = mongoose.models.SignupModel || mongoose.model("SignupModel", userSchema);
-export default SignupModel;
+const Signin = mongoose.models.Signin || mongoose.model("Signin", signinSchema);
+
+export default Signin;

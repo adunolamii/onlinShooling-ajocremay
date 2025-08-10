@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { assets } from "@/Assests/assets";
 import { Mail, Phone, MapPin } from "lucide-react";
-import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaFacebook, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -59,18 +59,34 @@ const Footer = () => {
               <FaWhatsapp />
             </Link>
             <Link
-              href="https://facebook.com/ajocremay medical battalion"
+              href="https://www.facebook.com/profile.php?id=100089100489242"
               target="_blank"
               className="hover:text-blue-400 transition"
             >
               <FaFacebook />
             </Link>
             <Link
-              href="https://instagram.com/Ajocremay Medical Battalion"
+              href="https://www.instagram.com/ajocremay_medicare_consortium/profilecard/?igsh=MW41eTFoZ3FnMTA4eA=="
               target="_blank"
               className="hover:text-pink-400 transition"
             >
               <FaInstagram />
+            </Link>
+
+             <Link
+              href="https://www.youtube.com/@ajocremaymedconsortium"
+              target="_blank"
+              className="hover:text-pink-400 transition"
+            >
+              <FaYoutube />
+            </Link>
+
+             <Link
+              href="https://www.tiktok.com/@ajocremaymedicare?_t=ZS-8ybUdrrEclE&_r=1"
+              target="_blank"
+              className="hover:text-pink-400 transition"
+            >
+              <FaTiktok />
             </Link>
 
             

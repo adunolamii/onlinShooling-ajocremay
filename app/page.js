@@ -299,7 +299,7 @@ export default function Home() {
             Admission for all academic sessions is ongoing.
           </p>
           <Link
-            href={"/courses"}
+            href={"/tuition"}
             className="bg-red-600 text-white text-lg font-serif px-4 py-2 flex items-center gap-2 hover:scale-110 duration-300"
           >
             Apply Now!
