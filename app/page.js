@@ -271,8 +271,8 @@ export default function Home() {
 
           {/* Mobile Nav Menu */}
           {isOpen && (
-            <div className="lg:hidden mt-2 bg-green-800 rounded shadow-md p-4 space-y-4 text-white">
-              <Link href="/" onClick={closeMenu} className="block hover:text-yellow-300">
+            <div className="lg:hidden mt-2  rounded shadow-md p-4 space-y-4 text-white">
+              {/* <Link href="/" onClick={closeMenu} className="block hover:text-yellow-300">
                 Home
               </Link>
               <Link href="/about" onClick={closeMenu} className="block hover:text-yellow-300">
@@ -283,7 +283,7 @@ export default function Home() {
               </Link>
               <Link href="/contacts" onClick={closeMenu} className="block hover:text-yellow-300">
                 Contact
-              </Link>
+              </Link> */}
               <Link href="/signup" onClick={closeMenu} className={buttonStyle}>
                 Sign Up
               </Link>

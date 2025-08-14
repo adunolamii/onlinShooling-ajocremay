@@ -60,7 +60,7 @@ export default function AdminUsersPage() {
       ) : (
         <div className="overflow-x-auto shadow-lg rounded-lg">
           <table className="w-full bg-white rounded-lg overflow-hidden">
-            <thead className="bg-blue-600 text-white">
+            <thead className="bg-green-900 text-white">
               <tr>
                 <th className="p-3 text-left">Name</th>
                 <th className="p-3 text-left">Email</th>
@@ -90,7 +90,7 @@ export default function AdminUsersPage() {
         </div>
       )}
 
-      {/* Toast notifications */}
+      
       <ToastContainer position="top-right" autoClose={3000} />
     </div>
   );

@@ -157,6 +157,7 @@ const About = () => {
                     <li>Digital learning resources</li>
                     <li>Student leadership & mentorship programs</li>
                     <li>Scholarship and financial aid options</li>
+                    <li>Hands-on experience and practical postings </li>
                   </ul>
                 ),
               },
@@ -201,7 +202,7 @@ const About = () => {
                 creativity through technology and curiosity.
               </li>
               <li>
-                <strong>Discipline</strong> –We encourage respect,
+                <strong>Discipline</strong> We encourage respect,
                 responsibility, and good character.
               </li>
             </ul>
@@ -213,7 +214,7 @@ const About = () => {
             variants={fadeInUp}
           >
             <h3 className="text-2xl font-semibold text-green-900 mb-3">
-              Message from Our Registra
+              Message from Our Team
             </h3>
             <p className="text-gray-700 leading-relaxed">
               At AJOCREMAY MEDICARE, we do not just teach, we inspire. We equip
@@ -221,9 +222,19 @@ const About = () => {
               strong academics with deep moral grounding. Join us in building a
               future full of promise, purpose, and progress.
             </p>
-            <p className="mt-4 font-semibold text-green-800">
-               Ogunleye Faith O.  Registra
+             <p className="mt-4 font-semibold text-green-800">
+               Fathia B. A.  CLERK   
             </p>
+            <p className="mt-4 font-semibold text-green-800">
+               Faith O. OI.  REGISTRAR     
+            </p>
+            <p className="mt-4 font-semibold text-green-800">
+               Crepen C. A. A.  DIRECTOR     
+            </p>
+            <p className="mt-4 font-semibold text-green-800">
+               AND OTHER TEAM MEMBERS     
+            </p>
+            
           </motion.div>
 
           {/* Community Impact */}

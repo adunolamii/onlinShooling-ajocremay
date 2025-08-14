@@ -1,10 +1,6 @@
-// import { connectDB } from "@/app/lib/config/db";
-// import Signup from "@/app/lib/models/signup.models";
-
-
 import { NextResponse } from "next/server";
 import { connectDB } from "@/app/lib/config/db";
-import Signup from "@/app/lib/models/signup.models"; // Same model as signup code
+import Signup from "@/app/lib/models/signup.models"; 
 
 // ✅ GET all users
 export async function GET() {
@@ -13,7 +9,7 @@ export async function GET() {
 
     const users = await Signup.find();
 
-    console.log("📦 Users in DB:", users); // Debug log
+    console.log("📦 Users in DB:", users); 
 
     if (!users || users.length === 0) {
       return NextResponse.json({ message: "No users found" }, { status: 404 });

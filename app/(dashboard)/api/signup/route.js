@@ -1,62 +1,4 @@
-// import { NextResponse } from "next/server";
-// import bcrypt from "bcryptjs";
-// import jwt from "jsonwebtoken";
-//  import Signup from "@/app/lib/models/signup.models"
-//  import { connectDB } from "@/app/lib/config/db";
 
-// export async function POST(req) {
-//   await connectDB();
-
-//   try {
-//     const { name, email, password } = await req.json();
-
-//     // Check if user exists
-//     const existingUser = await Signup.findOne({ email });
-//     if (existingUser) {
-//       return NextResponse.json(
-//         { message: "Email already exists" },
-//         { status: 400 }
-//       );
-//     }
-
-//     // Validate password strength
-//     const strongPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
-//     if (!strongPassword.test(password)) {
-//       return NextResponse.json(
-//         { message: "Password must be at least 8 characters long and include uppercase, lowercase, number, and special character." },
-//         { status: 400 }
-//       );
-//     }
-
-//     // Hash password
-//     const hashedPassword = await bcrypt.hash(password, 10);
-
-//     // Create new user
-//     const newUser = await Signup.create({
-//       name,
-//       email,
-//       password: hashedPassword,
-//     });
-
-//     // Generate JWT token
-//     const token = jwt.sign(
-//       { id: newUser._id, email: newUser.email },
-//       process.env.JWT_SECRET,
-//       { expiresIn: "1d" }
-//     );
-
-//     return NextResponse.json(
-//       { message: "User registered successfully", token },
-//       { status: 201 }
-//     );
-//   } catch (error) {
-//     console.error("Error registering user:", error);
-//     return NextResponse.json(
-//       { message: "Error registering user", error },
-//       { status: 500 }
-//     );
-//   }
-// }
 
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
@@ -95,7 +37,7 @@ export async function POST(req) {
     await sendMail({
       to: newUser.email,
       subject: "Welcome to AJOCREMAY Medicare",
-      html: `<p>Hello ${name},</p><p>Welcome to AJOCREMAY Medicare. We're glad to have you!</p>`,
+      html: `<p>Hello ${name},</p><p>Welcome to AJOCREMAY MEDICARE CONSORTIUM. We are thrilled to have you on board. Our team  is dedicated to providing you with exceptional healthcare, education, mentorship, networking, schorlarship, job placement,career opportunity services and support. THANK YOU FOR SIGNING UP ON OUR PORTAL. We are excited to have you as part of our community, and we look forward to helping you achieve your goals. If you have any questions or need assistance, please do not hesitate to reach out to us. We are here to help.  Best Regards, AJOCREMAY MEDICARE CONSORTIUM Team.    Hon. Faith O. O. [Registrar]           Hon. Fathia B. A. [Clerk]  </p>`,
     });
 
     // Send email to admin

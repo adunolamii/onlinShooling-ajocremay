@@ -38,7 +38,7 @@ export async function POST(req) {
     // Send sign-in notification email
     await sendMail({
       to: user.email,
-      subject: "Login Notification - AJOCREMAY Medicare",
+      subject: "Login Notification - AJOCREMAY MEDICARE CONSORTIUM",
       html: `<p>Hello ${user.name},</p><p>You have successfully signed in on ${new Date().toLocaleString()}.</p>`,
     });
 
