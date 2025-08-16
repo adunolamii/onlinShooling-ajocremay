@@ -35,7 +35,7 @@ export default function ContactSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <h2 className="text-4xl  font-bold">Let us Connect & Future Together.</h2>
+          <h2 className="text-4xl  font-bold">Let us Connect & Create Future Together.</h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto leading-relaxed">
             We believe that every great idea starts with a conversation. Whether you have a 
             project in mind, need advice, or simply want to share your vision, our team is here 

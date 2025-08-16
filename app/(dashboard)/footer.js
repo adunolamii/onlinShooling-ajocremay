@@ -37,10 +37,10 @@ const Footer = () => {
               <Mail size={16} /> ajocremaymedicare@gmail.com
             </li>
             <li className="flex items-center gap-2">
-              <Phone size={16} /> +234 9131240544
+              <Phone size={16} /> +234 913 124 0544, +234 916 151 8461
             </li>
             <li className="flex items-center gap-2">
-              <MapPin size={16} /> Lagos, Nigeria
+              <MapPin size={16} /> Ogun State, Nigeria
             </li>
           </ul>
         </div>

@@ -100,7 +100,7 @@ import Header2 from "../Header2";
 import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { EyeIcon, EyeOffIcon } from "lucide-react"; // 👈 Eye icons
+import { EyeIcon, EyeOffIcon } from "lucide-react"; 
 
 export default function Login() {
   const router = useRouter();

@@ -11,49 +11,108 @@ const page = () => {
       program: "Basic Clinical Skills Program",
       duration: "3 Months",
       tuition: "₦35,000",
-      // note: "Includes hostel and practicals",
+     
     },
     {
       program: "Basic Life Support",
       duration: "3 Months",
       tuition: "₦35,000",
-      // note: "Includes internship opportunities",
-    },
+      },
     {
       program: "Health Education & Sensitization",
       duration: "3 Months",
       tuition: "₦35,000",
-      // note: "Affordable and flexible",
+      
     },
     {
       program: "Care Of Special Needs Program",
       duration: "3 Months",
       tuition: "₦35,000 ",
-      // note: "Laboratory and field support included",
+     
     },
     {
       program: "Care Giving Program",
       duration: "3 Months",
       tuition: "₦55,000 ",
-      // note: "Laboratory and field support included",
+      
     },
     {
       program: "Nursing Assistance Programe",
       duration: "6 Months",
       tuition: "₦55,000 ",
-      // note: "Laboratory and field support included",
+      
     },
     {
       program: "FIRST AIDS Programe",
       duration: "6 Months",
       tuition: "₦55,000 ",
-      // note: "Laboratory and field support included",
+      
     },
     {
       program: "Health Assistance Programe",
       duration: "6 Months",
       tuition: "₦55,000 ",
-      // note: "Laboratory and field support included",
+      
+    },
+      {
+      program: "Basic Life Support Nursing",
+      duration: "4 Months",
+      tuition: "₦55,000 ",
+      
+    },
+      {
+      program: "Public Healthcare",
+      duration: "3 Months",
+      tuition: "₦55,000 ",
+      
+    },
+      {
+      program: "Personnal Support Workers",
+      duration: "8 Weeks",
+      tuition: "₦55,000 ",
+      
+    },
+      {
+      program: "Mental Health",
+      duration: "8 Weeks",
+      tuition: "₦55,000 ",
+      
+    },
+      {
+      program: "Acquired Cadiac Life Support",
+      duration: "8 Weeks",
+      tuition: "₦55,000 ",
+      
+    },
+      {
+      program: "Health Safety and Environment",
+      duration: "8 Weeks",
+      tuition: "₦55,000 ",
+      
+    },
+      {
+      program: "Disaster Management and Digital Nursing",
+      duration: "3 Months",
+      tuition: "₦55,000 ",
+      
+    },
+       {
+      program: "Cardiopulmonary Resuscitation",
+      duration: "8 Weeks",
+      tuition: "₦55,000 ",
+      
+    },
+       {
+      program: "Personnal Support Worker",
+      duration: "3 Months",
+      tuition: "₦55,000 ",
+      
+    },
+       {
+      program: "Medical Social Work",
+      duration: "3 Months",
+      tuition: "₦55,000 ",
+      
     },
   ];
 

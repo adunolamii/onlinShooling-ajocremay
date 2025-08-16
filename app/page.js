@@ -249,7 +249,7 @@ export default function Home() {
                   className="rounded-full object-cover shadow-md hover:shadow-amber-400 transition duration-300"
                 />
               </div>
-              <p className="font-semibold text-2xl transition-all duration-300 hover:text-amber-400 hover:underline hover:underline-offset-4 hover:scale-105">
+              <p className="font-semibold text-2xl transition-all duration-300 hover:text-amber-400   hover:scale-105">
                 AJOCREMAY MEDICARE CONSORTIUM
               </p>
             </div>
@@ -325,7 +325,7 @@ export default function Home() {
 
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-4">
                 <Link
-                  href={"courses"}
+                  href={"signup"}
                   className="bg-red-600 text-white text-lg font-serif px-4 py-2 hover:scale-110 duration-300"
                 >
                   Programmes
@@ -334,7 +334,7 @@ export default function Home() {
                 <motion.div whileHover={{ scale: 1.05 }}>
                   <Link
                     className=" bg-red-600 text-white text-lg font-serif px-4 py-2 flex items-center gap-2 hover:scale-110 duration-300"
-                    href="https://wa.me/2349161518461"
+                    href="https://wa.me/2349131240544"
                     target="_blank"
                   >
                     <MessageCircle size={20} />
