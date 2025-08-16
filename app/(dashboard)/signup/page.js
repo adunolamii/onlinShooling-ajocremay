@@ -32,7 +32,7 @@ const Page = () => {
         toast.success("✅ Signup successful! ");
         setTimeout(() => router.push("/dashboard"), 2000);
       } else {
-        toast.error(`❌ ${data.error || "An error occurred"}`);
+        toast.error(`❌ ${data.error || "Email Already Exist"}`);
       }
     } catch (err) {
       toast.error("❌ An unexpected error occurred");
