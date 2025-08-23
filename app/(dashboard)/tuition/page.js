@@ -57,61 +57,61 @@ const page = () => {
       {
       program: "Basic Life Support Nursing",
       duration: "4 Months",
-      tuition: "₦55,000 ",
+      tuition: "₦35,000 ",
       
     },
       {
       program: "Public Healthcare",
       duration: "3 Months",
-      tuition: "₦55,000 ",
+      tuition: "₦35,000 ",
       
     },
       {
       program: "Personnal Support Workers",
       duration: "8 Weeks",
-      tuition: "₦55,000 ",
+      tuition: "₦10,500 ",
       
     },
       {
       program: "Mental Health",
       duration: "8 Weeks",
-      tuition: "₦55,000 ",
+      tuition: "₦10,500 ",
       
     },
       {
       program: "Acquired Cadiac Life Support",
       duration: "8 Weeks",
-      tuition: "₦55,000 ",
+      tuition: "₦10,500 ",
       
     },
       {
       program: "Health Safety and Environment",
       duration: "8 Weeks",
-      tuition: "₦55,000 ",
+      tuition: "#10,500 ",
       
     },
       {
       program: "Disaster Management and Digital Nursing",
       duration: "3 Months",
-      tuition: "₦55,000 ",
+      tuition: "₦35,000 ",
       
     },
        {
       program: "Cardiopulmonary Resuscitation",
       duration: "8 Weeks",
-      tuition: "₦55,000 ",
+      tuition: "₦10,500 ",
       
     },
        {
       program: "Personnal Support Worker",
       duration: "3 Months",
-      tuition: "₦55,000 ",
+      tuition: "₦35,000 ",
       
     },
        {
       program: "Medical Social Work",
       duration: "3 Months",
-      tuition: "₦55,000 ",
+      tuition: "₦35,000 ",
       
     },
   ];
